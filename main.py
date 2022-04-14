@@ -23,7 +23,6 @@ def freeAgency():
     print(userInput)
     money = money - 400
     print("You now have " + str(money) + " dollars left")
-    sleep(3)
     picks = picks - 1
     print(str(picks) + " picks left")
     playersDrafted.append(userInput)
@@ -34,7 +33,7 @@ def freeAgency():
      break
 
 
-teamList = ["Jacksonville Jaguars", "Detroit Lions", "Cleveland Browns", "Carolina Panthers", "New York Giants", "New York Jets", "Washington Commanders"]
+teamList = ["Jacksonville Jaguars", "Detroit Lions", "Cleveland Browns", "Carolina Panthers", "New York Giants", "New York Jets", "Washington Commanders", "Miami Dolphins"]
 playersDrafted = []
 print("Welcome to the NFL 2022 Draft, your team is the " + choice(teamList))
 sleep(3)
@@ -43,12 +42,12 @@ print("Your options are Kenny Pickett out of Pitt or Malik Willis out of Liberty
 while True:
    qbList = ["Kenny Pickett", "Malik Willis"]
    userInput = input()
-   if userInput == "Kenny Pickett":
+   if userInput == "Kenny Pickett" or "kenny pickett":
     playersDrafted.append("Kenny Pickett")
     qbList.pop(0)
     print("You chose Kenny! He's a strong armed quarterback who can operate in the pocket well.")
     break
-   if userInput == "Malik Willis":
+   if userInput == "Malik Willis" or "malik willis":
     playersDrafted.append("Malik Willis")
     qbList.pop(1)
     print("You chose Malik! He is a fast and efficient qb who can break through defenses easily")
@@ -63,18 +62,18 @@ print("Wide recievers make up one of the biggest roles to fill for a team, choos
 while True:
  print("Your options are Garrett Wilson out of Ohio State, Drake London out of USC and Jameson Williams out of Alabama")
  userInput = input()
- wrList = ["Garrett Wilson", "Drake London", "Jameson Williams", "Commie"]
- if userInput == "Garrett Wilson":
+ wrList = ["Garrett Wilson", "Drake London", "Jameson Williams"]
+ if userInput == "Garrett Wilson" or "garrett wilson":
   print("#1 Wide Reciever, good choice. Ohio State produces the best wide receivers")
   playersDrafted.append("Garrett Wilson")
   wrList.pop(0)
   break
- if userInput == "Drake London":
+ if userInput == "Drake London" or "drake london":
   print("#2 WR in the draft and out of USC, very talented, good route runner. Lets see if he brings this college talent to the NFL")
   playersDrafted.append("Drake London")
   wrList.pop(1)
   break
- if userInput == "Jameson Williams":
+ if userInput == "Jameson Williams" or "jameson williams":
   print("#3 in the draft and a great wide reciever, Alabama is a great program and he will bring success to your team")
   playersDrafted.append("Jameson Williams")
   wrList.pop(2)
