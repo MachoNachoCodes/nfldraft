@@ -63,17 +63,17 @@ while True:
  print("Your options are Garrett Wilson out of Ohio State, Drake London out of USC and Jameson Williams out of Alabama")
  userInput = input()
  wrList = ["Garrett Wilson", "Drake London", "Jameson Williams"]
- if userInput == "Garrett Wilson" or "garrett wilson":
+ if userInput == "Garrett Wilson":
   print("#1 Wide Reciever, good choice. Ohio State produces the best wide receivers")
   playersDrafted.append("Garrett Wilson")
   wrList.pop(0)
   break
- if userInput == "Drake London" or "drake london":
+ if userInput == "Drake London":
   print("#2 WR in the draft and out of USC, very talented, good route runner. Lets see if he brings this college talent to the NFL")
   playersDrafted.append("Drake London")
   wrList.pop(1)
   break
- if userInput == "Jameson Williams" or "jameson williams":
+ if userInput == "Jameson Williams":
   print("#3 in the draft and a great wide reciever, Alabama is a great program and he will bring success to your team")
   playersDrafted.append("Jameson Williams")
   wrList.pop(2)
