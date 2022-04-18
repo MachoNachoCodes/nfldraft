@@ -87,7 +87,7 @@ sleep(1)
 print("Now it is time for defense, this year, the NFL is only letting teams pick from free agency. Pick 3 free agents for your defense.")
 freeAgency()
 sleep(10)
-print("Thank you for participating in the 2022 NFL Draft, here are your selections and your new defensive free agent pickups!")
+print("Thank you for participating in the 2022 NFL Draft, here are your draft selections and your new defensive free agent pickups!")
 print(playersDrafted)
   
 
