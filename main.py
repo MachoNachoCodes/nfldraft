@@ -42,12 +42,12 @@ print("Your options are Kenny Pickett out of Pitt or Malik Willis out of Liberty
 while True:
    qbList = ["Kenny Pickett", "Malik Willis"]
    userInput = input()
-   if userInput == "Kenny Pickett" or "kenny pickett":
+   if userInput == "Kenny Pickett":
     playersDrafted.append("Kenny Pickett")
     qbList.pop(0)
     print("You chose Kenny! He's a strong armed quarterback who can operate in the pocket well.")
     break
-   if userInput == "Malik Willis" or "malik willis":
+   if userInput == "Malik Willis":
     playersDrafted.append("Malik Willis")
     qbList.pop(1)
     print("You chose Malik! He is a fast and efficient qb who can break through defenses easily")
