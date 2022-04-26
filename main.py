@@ -36,6 +36,7 @@ def freeAgency():
 teamList = ["Jacksonville Jaguars", "Detroit Lions", "Cleveland Browns", "Carolina Panthers", "New York Giants", "New York Jets", "Washington Commanders", "Miami Dolphins"]
 playersDrafted = []
 print("Welcome to the NFL 2022 Draft, your team is the " + choice(teamList))
+print("Note: All players names are cap sensitive, so please spell players names as Von Miller, Kenny Pickett, etc.")
 sleep(3)
 print("Let's start with quarterbacks, who would you like to pick?")
 print("Your options are Kenny Pickett out of Pitt or Malik Willis out of Liberty")
@@ -58,7 +59,7 @@ print("Your players so far are")
 print(playersDrafted)
 print("Good QB choice! Next category is wide receivers")
 sleep(5)
-print("Wide recievers make up one of the biggest roles to fill for a team, choose wisely. This will decide your teams success")
+print("Wide recievers make up one of the biggest roles to fill for a team, choose wisely.")
 while True:
  print("Your options are Garrett Wilson out of Ohio State, Drake London out of USC and Jameson Williams out of Alabama")
  userInput = input()
