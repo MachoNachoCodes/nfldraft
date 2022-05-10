@@ -1,3 +1,3 @@
 # nfldraft
-2022 NFL draft thingy
-this a lil project that i made, its cool i guess but i might add to it later.
+2022 NFL Draft Simulator
+This is a loose simulation of the 2022 NFL Draft with the current draft class in place. I will update this simulation next year as the 2023 Draft Class commits.
